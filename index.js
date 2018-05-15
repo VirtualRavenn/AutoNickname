@@ -5,4 +5,4 @@ client.on("guildMemberAdd", member => {
   member.setNickname("Noobie");
 });
 
-client.login(process.env.BOT_TOKEN)
+client.login(process.env.BOT_TOKEN);
