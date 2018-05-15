@@ -2,7 +2,7 @@ const discord = require("discord.js");
 const client = new discord.Client();
 
 client.on("guildMemberAdd", member => {
-  member.setNickname("skedaddle skidoodle");
+  member.setNickname("Noobie");
 });
 
 client.login(process.env.TOKEN)
